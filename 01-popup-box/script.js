@@ -9,10 +9,3 @@ alert(`Halo ${nama}`);
 const namaSaya = prompt("Masukkan Nama!");
 confirm(`Apa Benar ${namaSaya} adalah nama anda?`);
 alert(`Halo ${namaSaya}`);
-
-// let lagi = true;
-// while (lagi) {
-//     const nama = prompt("Masukkan Nama!");
-//     alert(`Halo ${nama}`);
-//     lagi = confirm("Lagi?");
-// }
