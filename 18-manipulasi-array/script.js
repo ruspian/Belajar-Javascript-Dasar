@@ -41,5 +41,15 @@ let nama = ["ucup", "otong", "dudung"];
 // console.log(nama);
 
 // 5. shift => menghapus elemen di awal array
-nama.shift();
-console.log(nama);
+// nama.shift();
+// console.log(nama);
+
+// 6. splice => menyisipkan elemen di tengah array
+// rumus => array.splice(indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2, elemenBaruN)
+// nama.splice(2, 0, "surucup");
+// console.log(nama);
+
+// 7. slice => mengambil elemen di tengah array
+// rumus => array.slice(indexAwal, indexAkhir)
+// let namaSaya = nama.slice(1, 3);
+// console.log(namaSaya);
