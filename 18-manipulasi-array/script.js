@@ -83,7 +83,21 @@
 // console.log(angka.join(" - "));
 
 // jika tidak ada puluhan
+// const angka = [1, 2, 4, 9, 7, 6, 8, 5, 3];
+// console.log(angka.join(" - "));
+// angka.sort();
+// console.log(angka.join(" - "));
+
+// 11. filter => memfilter elemen array => mengembalikan nilai array
+// const angka = [1, 2, 4, 9, 7, 6, 8, 5, 3];
+// const angkaKu = angka.filter(function (e) {
+//   return e > 5;
+// });
+// console.log(angkaKu);
+
+// 12. find => mencari elemen array => mengembalikan satu elemen pertama yang terpilih
 const angka = [1, 2, 4, 9, 7, 6, 8, 5, 3];
-console.log(angka.join(" - "));
-angka.sort();
-console.log(angka.join(" - "));
+const angkaKu = angka.find(function (e) {
+  return e > 5;
+});
+console.log(angkaKu);
