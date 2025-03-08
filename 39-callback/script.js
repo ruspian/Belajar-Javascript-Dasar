@@ -71,8 +71,8 @@ getDataSiswa(
     const siswa = JSON.parse(result);
     siswa.forEach((s) => console.log(s.nama));
   },
-  (result) => {
-    console.log(result);
+  (err) => {
+    console.log(err);
   }
 );
 
